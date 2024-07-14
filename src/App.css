@@ -4,7 +4,6 @@
   padding: 2rem;
   text-align: center;
 }
-
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -34,9 +33,21 @@
 }
 
 .card {
-  padding: 2em;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 36px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
 }
 
 .read-the-docs {
   color: #888;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
 }
